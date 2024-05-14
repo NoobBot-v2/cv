@@ -1,26 +1,61 @@
 body{
-    background-color: lightblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.content-wrapper{
-    padding: 10px 30px;
-}
-p{
-    text-align: justify;
-}
-h1{
-    text-align: center;
-}
-.highlight{
-    font-weight: 700;
-    color: forestgreen;
-}
-h1, h2{
-    font-weight: 400;
+    margin:0;
+    padding: 0%;
+    background-color: beige;
 }
 
-ul li{
-    list-style-type: square;
-    margin-bottom: 10px;
-    margin-left: 50px;
+h1{
+    margin: 0;
+    padding: 0%;
 }
+
+.topbar{
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    background-color: silver;
+    position: relative;
+}
+
+.topname{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 50px;
+    font: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profileimg{
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.vline{
+    border-left: 6px solid black;
+    height: 100%;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+    top: 0;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    text-align: left;
+    margin: 3px;
+    padding: 3px;
+    white-space: nowrap;
+}
+
+.tblexp{
+    margin: 15px;
+    padding: 5px;
+}
+
